@@ -1,0 +1,58 @@
+aid: dati-comune-matera-it
+name: Portale Dati aperti del Comune di Matera
+description: >-
+  Portale Dati aperti del Comune di Matera is a open data portal open-data portal for Italy running CKAN.
+  It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 250 datasets,
+  supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a
+  consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/dati-comune-matera-it/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Open Data Portal
+  - Italy
+created: '2026-06-04'
+modified: '2026-06-04'
+specificationVersion: '0.19'
+apis:
+  - aid: dati-comune-matera-it:catalog
+    name: Portale Dati aperti del Comune di Matera CKAN Action API
+    description: >-
+      CKAN Action API for Portale Dati aperti del Comune di Matera, a consistent JSON-over-HTTP interface over a catalog of 250 datasets. Standard actions include package_search, package_show, package_list, organization_list, group_list, tag_list, and resource_search; datastore_search is available where the DataStore extension is enabled. Base URL https://dati.comune.matera.it/api/3/action/.
+    humanURL: https://dati.comune.matera.it
+    baseURL: https://dati.comune.matera.it/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://dati.comune.matera.it
+      - type: x-api-endpoint
+        url: https://dati.comune.matera.it/api/3/action/status_show
+common:
+  - type: Website
+    url: https://dati.comune.matera.it
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/dati-comune-matera-it-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dati-comune-matera-it-rate-limits.yml
+  - type: FinOps
+    url: finops/dati-comune-matera-it-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
