@@ -30,7 +30,7 @@ tags:
   - Italy
 created: '2026-06-04'
 modified: '2026-06-04'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: dati-comune-matera-it:catalog
     name: Portale Dati aperti del Comune di Matera CKAN Action API
